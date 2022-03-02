@@ -1,0 +1,38 @@
+.punkList-container {
+    background-color: #1c1c1e;
+    width: 300px;
+    border-radius: 15px;
+    margin: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.punkList-container > img {
+    width: 100%;
+}
+
+.punkList-details {
+    color: white;
+    margin: 20px;
+}
+
+.punk-name {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.punk-id {
+    color: #a3a3a3,
+}
+
+.punk-price {
+    display: flex;
+    color: #cbcbcb;
+    margin-top: 10px;
+}
+
+.punk-price > img {
+    width: 12px;
+    /* object-fit: contain; */
+    margin-right: 5px;
+}
